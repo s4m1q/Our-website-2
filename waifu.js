@@ -4,7 +4,6 @@ const tagsInput = document.getElementById('tags');
 const orientationSelect = document.getElementById('orientation');
 const nsfwSelect = document.getElementById('nsfw');
 const searchBtn = document.getElementById('searchBtn');
-const randomBtn = document.getElementById('randomBtn');
 const nextBtn = document.getElementById('nextBtn'); 
 const gallery = document.getElementById('gallery');
 const loading = document.getElementById('loading');
@@ -168,7 +167,6 @@ function closeModalWindow() {
 }
 
 searchBtn.addEventListener('click', () => fetchImages(false));
-randomBtn.addEventListener('click', () => fetchImages(false));
 nextBtn.addEventListener('click', () => fetchImages(true)); 
 
 closeModal.addEventListener('click', closeModalWindow);
