@@ -2,7 +2,7 @@
 console.log('Currency Converter loaded!');
 
 // Замените YOUR_API_KEY на ваш реальный ключ с https://app.exchangerate-api.com/
-const API_KEY = '758ee49aa11b3216b05181b7'; // ← ОБЯЗАТЕЛЬНО ВСТАВЬТЕ СВОЙ КЛЮЧ
+const API_KEY = 'bf31e578c173d628fb6c7373'; // ← ОБЯЗАТЕЛЬНО ВСТАВЬТЕ СВОЙ КЛЮЧ
 const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}`;
 
 const amountInput = document.getElementById('amount');
