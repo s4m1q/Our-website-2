@@ -6,7 +6,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        index: 'index.html',
+        main: 'index.html',
         currency: 'currency.html',
         anime: 'anime.html',
         waifu: 'waifu.html',
