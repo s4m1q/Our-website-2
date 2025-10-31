@@ -1,3 +1,4 @@
+import './style.css';
 const apiUrl = 'https://api.waifu.im/search';
 
 const tagsInput = document.getElementById('tags');
