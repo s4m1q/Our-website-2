@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 
+=======
+// currency.js
+import './style.css';
+>>>>>>> b28f5d8b990916c8db8668e3e23bdc6fb36a8721
 console.log('Currency Converter loaded!');
 
 
@@ -89,4 +94,9 @@ amountInput.addEventListener('keypress', (e) => {
   });
 });
 
+<<<<<<< HEAD
 convertCurrency();
+=======
+// Загружаем первый результат при старте (опционально)
+convertCurrency();
+>>>>>>> b28f5d8b990916c8db8668e3e23bdc6fb36a8721
