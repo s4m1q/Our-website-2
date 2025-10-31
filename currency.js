@@ -1,4 +1,5 @@
 // currency.js
+import '../style.css';
 console.log('Currency Converter loaded!');
 
 // Замените YOUR_API_KEY на ваш реальный ключ с https://app.exchangerate-api.com/
