@@ -11,7 +11,6 @@ body {
   color: #333;
 }
 
-
 .navbar {
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -105,8 +104,6 @@ h2 {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .card h3 {
   color: #667eea;
@@ -237,9 +234,6 @@ h2 {
   font-weight: 600;
 }
 
-
-
-
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -289,8 +283,6 @@ h2 {
   font-size: 0.9rem;
   text-transform: capitalize;
 }
-
-
 
 .currency-converter {
   background: white;
@@ -363,8 +355,6 @@ h2 {
   font-size: 0.9rem;
   opacity: 0.8;
 }
-
-
 
 .controls {
   background: white;
@@ -476,8 +466,6 @@ h2 {
   transform: translateY(0);
 }
 
-
-
 .waifu-header {
   text-align: center;
   margin-bottom: 30px;
@@ -547,10 +535,6 @@ h2 {
   font-size: 0.85rem;
   font-weight: 500;
 }
-
-<<<<<<< HEAD
-
-
 
 .anime-header {
   text-align: center;
@@ -673,10 +657,6 @@ h2 {
   display: inline-block;
 }
 
-<<<<<<< HEAD
-
-
-
 .modal {
   position: fixed;
   top: 0;
@@ -720,7 +700,6 @@ h2 {
   transform: scale(1.1);
 }
 
-
 /* --- Waifu Modal --- */
 
 .modal-content {
@@ -749,9 +728,7 @@ h2 {
   word-wrap: break-word;
 }
 
-
 /* --- Anime Modal --- */
-
 
 .modal-container {
   position: relative;
@@ -861,12 +838,7 @@ h2 {
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
-<<<<<<< HEAD
-
-
-=======
 /* === Анимации === */
-
 
 @keyframes scaleIn {
   from {
@@ -877,126 +849,6 @@ h2 {
     opacity: 1;
     transform: scale(1);
   }
-
-
-}
-
-
-
-@keyframes zoomIn {
-  from {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-
-
-@media (max-width: 768px) {
-  .nav-container {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .nav-links {
-    gap: 1rem;
-  }
-
-  .converter-row,
-  .weather-details {
-    grid-template-columns: 1fr;
-  }
-
-  .controls {
-    grid-template-columns: 1fr;
-  }
-
-  .button-group {
-    flex-direction: column;
-    padding: 15px;
-  }
-
-  .search-btn,
-  .random-btn,
-  .next-btn {
-    width: 100%;
-    max-width: none;
-  }
-
-  .waifu-header h2,
-  .anime-header h2 {
-    font-size: 2rem;
-  }
-
-  .gallery,
-  .anime-list {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery-item img {
-    height: 300px;
-  }
-
-  .anime-image {
-    height: 300px;
-  }
-
-  .modal-content.anime-modal {
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
-  }
-
-  .modal-image-section {
-    flex: none;
-    text-align: center;
-  }
-
-  .modal-image {
-    max-width: 250px;
-    margin: 0 auto;
-  }
-
-  .modal-stats {
-    padding: 15px;
-  }
-
-  .stat-item {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-  }
-
-  .modal-title {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-
-  .modal-japanese-title {
-    text-align: center;
-  }
-
-  .close {
-    top: 20px;
-    right: 20px;
-    font-size: 40px;
-  }
-
-  .modal-info {
-    bottom: 20px;
-    padding: 15px;
-    max-width: 90%;
-  }
-
 }
 
 @keyframes zoomIn {
@@ -1033,7 +885,8 @@ h2 {
   }
 
   .controls {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .button-group {
