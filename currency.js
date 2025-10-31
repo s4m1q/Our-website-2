@@ -1,8 +1,8 @@
-// currency.js
+
 console.log('Currency Converter loaded!');
 
-// Замените YOUR_API_KEY на ваш реальный ключ с https://app.exchangerate-api.com/
-const API_KEY = 'bf31e578c173d628fb6c7373'; // ← ОБЯЗАТЕЛЬНО ВСТАВЬТЕ СВОЙ КЛЮЧ
+
+const API_KEY = 'bf31e578c173d628fb6c7373'; // 
 const BASE_URL = `https://v6.exchangerate-api.com/v6/${API_KEY}`;
 
 const amountInput = document.getElementById('amount');
@@ -26,13 +26,11 @@ async function convertCurrency() {
     return;
   }
 
-  // Скрываем предыдущие результаты
   loading.style.display = 'block';
   error.style.display = 'none';
   result.style.display = 'none';
 
   try {
-    // Запрашиваем курсы относительно базовой валюты (from)
     const response = await fetch(`${BASE_URL}/latest/${from}`);
     
     if (!response.ok) {
@@ -77,7 +75,6 @@ function showError(message) {
   error.style.display = 'block';
 }
 
-// Обработчики
 convertBtn.addEventListener('click', convertCurrency);
 
 amountInput.addEventListener('keypress', (e) => {
@@ -92,5 +89,4 @@ amountInput.addEventListener('keypress', (e) => {
   });
 });
 
-// Загружаем первый результат при старте (опционально)
 convertCurrency();
