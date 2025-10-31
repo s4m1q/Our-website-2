@@ -106,10 +106,7 @@ h2 {
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
-.card-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
+
 
 .card h3 {
   color: #667eea;
@@ -864,6 +861,7 @@ h2 {
     transform: scale(1);
   }
 
+
 }
 
 
@@ -981,4 +979,5 @@ h2 {
     padding: 15px;
     max-width: 90%;
   }
+
 }
