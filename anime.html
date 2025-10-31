@@ -36,7 +36,9 @@
           placeholder="Введите название аниме..."
         >
       </div>
-	  
+
+      <!-- УДАЛЁН ВЫПАДАЮЩИЙ СПИСОК ЖАНРОВ -->
+
       <div class="filter-group">
         <label for="status">Статус:</label>
         <select id="status">
@@ -83,6 +85,7 @@
 
     <div id="animeList" class="anime-list"></div>
 
+    <!-- Модальное окно -->
     <div id="animeModal" class="modal hidden">
       <div class="modal-background" onclick="closeModalWindow()"></div>
       <div class="modal-container">
@@ -116,7 +119,7 @@
                 <span id="modalKind" class="stat-value"></span>
               </div>
             </div>
-
+            <!-- Описание УДАЛЕНО -->
             <div class="modal-links">
               <a id="modalShikimoriLink" href="#" target="_blank" class="source-link">Открыть в Shikimori</a>
             </div>
