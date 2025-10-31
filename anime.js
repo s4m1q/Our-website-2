@@ -1,4 +1,4 @@
-import '../style.css';
+import './style.css';
 const SHIKIMORI_BASE_URL = 'https://shikimori.one/api';
 
 const searchInput = document.getElementById('search');
