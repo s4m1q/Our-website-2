@@ -11,7 +11,6 @@ body {
   color: #333;
 }
 
-/* === Общие компоненты === */
 
 .navbar {
   background: rgba(255, 255, 255, 0.95);
@@ -241,7 +240,6 @@ h2 {
   font-weight: 600;
 }
 
-/* === Фильмы === */
 
 .movies-grid {
   display: grid;
@@ -293,7 +291,6 @@ h2 {
   text-transform: capitalize;
 }
 
-/* === Конвертер валют === */
 
 .currency-converter {
   background: white;
@@ -367,7 +364,7 @@ h2 {
   opacity: 0.8;
 }
 
-/* === Общие контролы и кнопки (Waifu & Anime) === */
+
 
 .controls {
   background: white;
@@ -479,7 +476,6 @@ h2 {
   transform: translateY(0);
 }
 
-/* === Waifu Gallery === */
 
 .waifu-header {
   text-align: center;
@@ -551,7 +547,7 @@ h2 {
   font-weight: 500;
 }
 
-/* === Аниме === */
+
 
 .anime-header {
   text-align: center;
@@ -674,7 +670,7 @@ h2 {
   display: inline-block;
 }
 
-/* === Модальные окна === */
+
 
 .modal {
   position: fixed;
@@ -719,7 +715,7 @@ h2 {
   transform: scale(1.1);
 }
 
-/* --- Waifu Modal --- */
+
 
 .modal-content {
   max-width: 90%;
@@ -747,7 +743,6 @@ h2 {
   word-wrap: break-word;
 }
 
-/* --- Anime Modal --- */
 
 .modal-container {
   position: relative;
@@ -857,7 +852,7 @@ h2 {
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
-/* === Анимации === */
+
 
 @keyframes scaleIn {
   from {
@@ -889,7 +884,7 @@ h2 {
   100% { transform: rotate(360deg); }
 }
 
-/* === Адаптивность === */
+
 
 @media (max-width: 768px) {
   .nav-container {
